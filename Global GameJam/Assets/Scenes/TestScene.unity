@@ -291,6 +291,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4479304368451903498, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -518.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479304368451903498, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -17.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479304368451903498, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -242.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479304368451903498, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8.715
+      objectReference: {fileID: 0}
     - target: {fileID: 4581122652019167078, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
       propertyPath: m_Camera
       value: 
@@ -383,6 +399,26 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 102034603}
+    - target: {fileID: 5464312087120114990, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -407
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464312087120114990, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -25.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464312087120114990, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 122.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 5464312087120114990, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169510791803167461, guid: df0e83de3f26ae94494afb17ce56efff, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -624,7 +660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -693,7 +729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.1, y: 134.1}
+  m_AnchoredPosition: {x: -224.08, y: 134.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.50000006, y: 0.5000002}
 --- !u!114 &803519850
@@ -841,7 +877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.1, y: 85}
+  m_AnchoredPosition: {x: -227.7, y: 85}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.50000006, y: 0.5000002}
 --- !u!114 &845232030
