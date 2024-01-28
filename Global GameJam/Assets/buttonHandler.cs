@@ -78,7 +78,7 @@ public class buttonHandler : MonoBehaviour , IPointerEnterHandler, IPointerExitH
 
             gameManager.setAdd(add);
             if (gameManager.addOneClickPower(cost)) {
-                cost +=  (cost / 2);
+                cost +=  (cost / 5);
                 source[1].Play();
 
                 if (index == 1)
@@ -110,7 +110,7 @@ public class buttonHandler : MonoBehaviour , IPointerEnterHandler, IPointerExitH
           if (  gameManager.addOneCps(cost))
             {
                 source[1].Play();
-                cost += (cost / 2);
+                cost += (cost / 5);
 
                 if (index == 1)
                 {
