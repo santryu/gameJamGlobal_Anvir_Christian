@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class clickerScript : MonoBehaviour
 {
-
+    public Animator animator;
+    public GameObject clickParticlePrefab;
     public gameManager manager;
-    public float clickPower = 1;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +24,21 @@ public class clickerScript : MonoBehaviour
 
     private void OnMouseDown()
     {
+    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        manager.amount += clickPower;
-       
+        mousePos = new Vector3(mousePos.x, mousePos.y, 0);
+
+        Instantiate(clickParticlePrefab,mousePos,Quaternion.identity);
+
+        manager.amount += manager.clickPower;
+
+        animator.SetTrigger("wasClicked");
+
+
         
+
+
+
     }
 
 
