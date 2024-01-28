@@ -9,6 +9,7 @@ using UnityEngine.Events;
 
 public class buttonHandler : MonoBehaviour , IPointerEnterHandler, IPointerExitHandler
 {
+    public AudioSource[] source;
     public Animator animator;
     public Button button;
     public TextMeshProUGUI price;
@@ -21,12 +22,13 @@ public class buttonHandler : MonoBehaviour , IPointerEnterHandler, IPointerExitH
     void Start()
     {
         button.onClick.AddListener(buttonWasClicked);
-        
+        source = GameObject.FindGameObjectWithTag("AudioSources").GetComponents<AudioSource>();
     }
 
     // When highlighted with mouse.
     public void OnPointerEnter(PointerEventData eventData)
     {
+        source[0].Play();
         animator.SetBool("MouseOnTop", true);
     }
     public void OnPointerExit(PointerEventData eventData)
@@ -37,11 +39,13 @@ public class buttonHandler : MonoBehaviour , IPointerEnterHandler, IPointerExitH
 
     void buttonWasClicked()
     {
+    
         if ( which == 0)
         {
             gameManager.setAdd(add);
             if (gameManager.addOneClickPower(cost)) {
                 cost += ((int)cost / 2);
+                source[1].Play();
             }
                 
         
@@ -50,6 +54,7 @@ public class buttonHandler : MonoBehaviour , IPointerEnterHandler, IPointerExitH
             gameManager.setAdd(add);
           if (  gameManager.addOneCps(cost))
             {
+                source[1].Play();
                 cost += ((int)cost / 2);
             }
           
