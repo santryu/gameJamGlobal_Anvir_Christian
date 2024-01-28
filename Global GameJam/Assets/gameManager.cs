@@ -6,6 +6,12 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 public class gameManager : MonoBehaviour
 {
+
+    public int cost1 = 100;
+    public int cost2 = 150;
+    public int cost3 = 500;
+    public int cost4 = 500;
+    public int cost5 = 1000;
     public float amount = 0;
     public float cookiesPerSec=0;
     float timer =0f;

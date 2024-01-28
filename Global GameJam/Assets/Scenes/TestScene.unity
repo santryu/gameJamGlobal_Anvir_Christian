@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 325196225}
   m_Layer: 5
   m_Name: Bot Comments
-  m_TagString: Untagged
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1281,9 +1281,9 @@ MonoBehaviour:
   button: {fileID: 325196224}
   price: {fileID: 664760489}
   gameManager: {fileID: 1559256475}
-  cost: 500
   add: 5
   which: 1
+  index: 3
 --- !u!1001 &512382217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2551,7 +2551,7 @@ GameObject:
   - component: {fileID: 770350218}
   m_Layer: 5
   m_Name: Emoji Farm Button
-  m_TagString: Untagged
+  m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2714,9 +2714,9 @@ MonoBehaviour:
   button: {fileID: 770350217}
   price: {fileID: 2062320459}
   gameManager: {fileID: 1559256475}
-  cost: 150
   add: 1
   which: 1
+  index: 2
 --- !u!1 &803519848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,7 @@ GameObject:
   - component: {fileID: 1080499498}
   m_Layer: 5
   m_Name: Emoji Spamme
-  m_TagString: Untagged
+  m_TagString: 5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4078,9 +4078,9 @@ MonoBehaviour:
   button: {fileID: 1080499497}
   price: {fileID: 1290568187}
   gameManager: {fileID: 1559256475}
-  cost: 1000
   add: 7
   which: 1
+  index: 5
 --- !u!95 &1080499499
 Animator:
   serializedVersion: 5
@@ -4520,7 +4520,7 @@ GameObject:
   - component: {fileID: 1394975316}
   m_Layer: 5
   m_Name: Cursor Button
-  m_TagString: Untagged
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4610,9 +4610,9 @@ MonoBehaviour:
   button: {fileID: 1394975314}
   price: {fileID: 146073640}
   gameManager: {fileID: 1559256475}
-  cost: 100
   add: 1
   which: 0
+  index: 1
 --- !u!95 &1394975316
 Animator:
   serializedVersion: 5
@@ -5177,6 +5177,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6761c021daa134db1b5dadba6c92db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost1: 101
+  cost2: 1
+  cost3: 509
+  cost4: 3
+  cost5: 5
   amount: 0
   cookiesPerSec: 0
   clickPower: 1
@@ -5207,6 +5212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715540e92517303498d2861d94f7b5c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonHandler: {fileID: 1394975315}
   manager: {fileID: 1559256475}
 --- !u!1 &1584610599
 GameObject:
@@ -5434,7 +5440,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e56fa23b6c40d8649b7fea49e1ff801c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.31
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5530,7 +5536,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c95689e2684a6984399452092ab367df, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.555
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5989,7 +5995,7 @@ GameObject:
   - component: {fileID: 2024912973}
   m_Layer: 5
   m_Name: Meme Page
-  m_TagString: Untagged
+  m_TagString: 4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6079,9 +6085,9 @@ MonoBehaviour:
   button: {fileID: 2024912972}
   price: {fileID: 1008951538}
   gameManager: {fileID: 1559256475}
-  cost: 500
   add: 5
   which: 0
+  index: 4
 --- !u!95 &2024912974
 Animator:
   serializedVersion: 5
